@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.example.jhordan.people_mvvm;
+package com.example.ahmed.contacts_mvvm;
 
 import android.content.Context;
 import android.content.Intent;
 import android.databinding.Observable;
 
-import com.example.jhordan.people_mvvm.data.MockView;
-import com.example.jhordan.people_mvvm.model.Name;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.model.Picture;
-import com.example.jhordan.people_mvvm.viewmodel.ItemPeopleViewModel;
+import com.example.ahmed.contacts_mvvm.data.MockView;
+import com.example.ahmed.contacts_mvvm.model.Name;
+import com.example.ahmed.contacts_mvvm.model.People;
+import com.example.ahmed.contacts_mvvm.model.Picture;
+import com.example.ahmed.contacts_mvvm.viewmodel.ItemPeopleViewModel;
 
 import org.junit.Ignore;
 import org.junit.Test;

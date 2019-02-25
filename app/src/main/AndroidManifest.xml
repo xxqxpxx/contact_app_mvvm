@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.example.jhordan.people_mvvm"
+    package="com.example.ahmed.contacts_mvvm"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:name=".PeopleApplication"
+        android:name="com.example.ahmed.contacts_mvvm.PeopleApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:largeHeap="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.PeopleActivity"
+            android:name="com.example.ahmed.contacts_mvvm.view.PeopleActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar">
@@ -25,8 +26,8 @@
         </activity>
 
         <activity
-            android:name=".view.PeopleDetailActivity"
-            android:parentActivityName=".view.PeopleActivity"
+            android:name="com.example.ahmed.contacts_mvvm.view.PeopleDetailActivity"
+            android:parentActivityName="com.example.ahmed.contacts_mvvm.view.PeopleActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

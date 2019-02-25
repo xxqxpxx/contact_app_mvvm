@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.jhordan.people_mvvm;
+package com.example.ahmed.contacts_mvvm;
 
 import android.content.Context;
 import android.view.View;
 
-import com.example.jhordan.people_mvvm.data.FakeRandomUserGeneratorAPI;
-import com.example.jhordan.people_mvvm.data.PeopleService;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.viewmodel.PeopleViewModel;
+import com.example.ahmed.contacts_mvvm.data.FakeRandomUserGeneratorAPI;
+import com.example.ahmed.contacts_mvvm.data.PeopleService;
+import com.example.ahmed.contacts_mvvm.model.People;
+import com.example.ahmed.contacts_mvvm.viewmodel.PeopleViewModel;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.jhordan.people_mvvm.data;
+package com.example.ahmed.contacts_mvvm.data;
 
-import com.example.jhordan.people_mvvm.model.Location;
-import com.example.jhordan.people_mvvm.model.Login;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.model.Picture;
+import com.example.ahmed.contacts_mvvm.model.Location;
+import com.example.ahmed.contacts_mvvm.model.Login;
+import com.example.ahmed.contacts_mvvm.model.People;
+import com.example.ahmed.contacts_mvvm.model.Picture;
 
 import java.util.ArrayList;
 import java.util.List;
